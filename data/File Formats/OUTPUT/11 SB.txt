@@ -1,0 +1,50 @@
+//Request File Format
+4784~444~891~101~0~022420~011006200022420~10~HARIPAL SUKHADEORAO BARDE~~~~~~     ,N R GHODE WADA~VIJAY COLONY~RUKHMINI NAGAR      AMRAVATI~~~AMRAVATI~444806~~~9420722082~1~15~Bearer~N~62~200016~200030~20220715~20220715~1~SB~022420~62      ~   22420~~~
+
+//Output File Format
+00010162         2242020220715      1   15       1      200016  SB  1002242020220715000000
+
+
+// Ouput file explanation 
+
+As it is three zero : 000
+
+Micr last 3 digit  : 101 
+
+cps pr code : 62 
+
+Blank spaces : 9  
+
+account no last 5 digit : 22420 
+
+date : 20220715 
+
+Blank spaces : 6
+
+no of books : 1
+
+Blank spaces : 3  
+
+Book size : 15
+
+Blank spaces : 7
+
+customer address type : 1
+
+Blank spaces : 6
+
+starting series of cheque : 200016
+
+Blank spaces : 2
+
+Account Type (alphacode) : SB 
+
+Blank spaces : 2
+
+TR Code : 10
+
+Sixs digit short acc no : 022420
+
+date : 20220715
+
+last zeros : 000000
